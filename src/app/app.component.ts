@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
  
   subscribtion;
   ngOnInit() {
-    const ob = of(1,2,3,4,5,8,6).pipe(
+    const ob = of(1,2,3,4,5,8,6,10,10).pipe(
       map((val)=> val * val),
       filter((val)=>val > 4)
       );
